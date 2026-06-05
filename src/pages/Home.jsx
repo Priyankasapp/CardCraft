@@ -1,10 +1,10 @@
 import MainLayout from "../layouts/MainLayout"
-
+import Hero from "../components/Hero"
 const Home = () => {
   return (
    <MainLayout>
-    THIS IS YOUR HOME
-    <h1>JIDWEI</h1>
+   
+    <Hero/>
    </MainLayout>
   )
 }
